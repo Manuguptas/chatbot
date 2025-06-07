@@ -4,7 +4,7 @@ header("Content-Type: application/json");
 
 
 // enter your gemini key
-$apiKey = "YOUR_GEMINI_API_KEY";
+$apiKey = "AIzaSyBmvwcXyYwTHRCGP19KKAnSGg8KTBWlkO0";
 $input = json_decode(file_get_contents("php://input"), true);
 $prompt = trim($input["prompt"] ?? "");
 
